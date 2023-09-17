@@ -1,0 +1,127 @@
+body {
+  background-color: #61677a;
+}
+
+.title {
+  font-size: 40px;
+  margin-left: 38%;
+  margin-right: 30%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d8d9da;
+  -webkit-text-stroke: 2px black;
+}
+.container {
+  margin-top: 10px;
+}
+
+.form {
+  padding: 20px 30px;
+}
+
+.todo_div {
+  margin-top: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.todo_search {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.input {
+  padding: 6px 8px;
+  font-size: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  height: 30px;
+}
+
+.buton {
+  padding: 4px 5px;
+  outline: none;
+  background-color: cornflowerblue;
+  cursor: pointer;
+  border: none;
+  font-size: 100%;
+  border-radius: 10px;
+  height: 40px;
+  width: 50px;
+}
+
+.search-input {
+  padding: 6px 8px;
+  font-size: 100%;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-left: 40%;
+  align-items: center;
+}
+
+.todo_container {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+.todo_left {
+  display: flex;
+  align-items: center;
+}
+
+.todo_right {
+  position: relative;
+}
+
+.todo_sil {
+  background-color: tomato;
+  color: antiquewhite;
+  padding: 4px 5px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.todo_duzenle {
+  background-color: #352f44;
+  color: antiquewhite;
+  padding: 4px 5px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.todo_text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d8d9da;
+  font-size: 20px;
+}
+
+.todo_checkbox {
+  margin: 8px;
+}
+
+.todo_checkbox:checked ~ .todo_text {
+  text-decoration: line-through;
+  color: black;
+}
+
+.filter {
+  margin-left: 38%;
+  margin-bottom: 20px;
+}
